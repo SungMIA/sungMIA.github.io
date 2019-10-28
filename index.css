@@ -1,0 +1,13 @@
+.container {
+    display: grid;
+    grid-template-rows: repeat(6, 16.67vw);
+    grid-template-columns: 15vh 65vh 20vh;
+}
+
+.nav {
+    grid-row: 2 / 6;
+}
+
+.picture {
+    size: 100%;
+}
